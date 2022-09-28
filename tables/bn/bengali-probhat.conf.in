@@ -1,0 +1,24 @@
+[InputMethod]
+Name=Probhat (phonetic) - Bengali (Table)
+Icon=fcitx-bengali-probhat
+LangCode=bn
+Addon=table
+Configurable=True
+
+[Table]
+File=table/bengali-probhat.main.dict
+OrderPolicy=No
+AutoSelect=True
+AutoSelectLength=-1
+NoMatchAutoSelectLength=1
+Learning=False
+ExactMatch=False
+UseAlternativePageKey=True
+FirstCandidateAsPreedit=True
+CommitInvalidSegment=True
+
+[Table/PrevPage]
+0=Page_Up
+
+[Table/NextPage]
+0=Page_Down

@@ -1,0 +1,24 @@
+[InputMethod]
+Name=Inscript - Telugu (Table)
+Icon=fcitx-telugu-inscript
+LangCode=te
+Addon=table
+Configurable=True
+
+[Table]
+File=table/telugu-inscript.main.dict
+OrderPolicy=No
+AutoSelect=True
+AutoSelectLength=1
+NoMatchAutoSelectLength=1
+Learning=False
+ExactMatch=False
+UseAlternativePageKey=True
+FirstCandidateAsPreedit=True
+CommitInvalidSegment=True
+
+[Table/PrevPage]
+0=Page_Up
+
+[Table/NextPage]
+0=Page_Down

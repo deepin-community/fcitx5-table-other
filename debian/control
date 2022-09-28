@@ -1,0 +1,372 @@
+Source: fcitx5-table-other
+Section: utils
+Priority: optional
+Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
+Uploaders:
+ Lu YaNing <dluyaning@gmail.com>,
+ Boyuan Yang <byang@debian.org>,
+Build-Depends:
+ cmake,
+ debhelper-compat (= 13),
+ extra-cmake-modules,
+ libboost-dev,
+ libfcitx5utils-dev,
+ libime-bin,
+ libimecore-dev,
+ libimetable-dev,
+Standards-Version: 4.6.0
+Homepage: https://github.com/fcitx/fcitx5-table-other
+Vcs-Git: https://salsa.debian.org/input-method-team/fcitx5-table-other.git
+Vcs-Browser: https://salsa.debian.org/input-method-team/fcitx5-table-other
+Rules-Requires-Root: no
+
+Package: fcitx5-table-other
+Architecture: all
+Section: metapackages
+Depends:
+ ${misc:Depends},
+Recommends:
+ fcitx5-table-amharic,
+ fcitx5-table-arabic,
+ fcitx5-table-cns11643,
+ fcitx5-table-compose,
+ fcitx5-table-emoji,
+ fcitx5-table-ipa-x-sampa,
+ fcitx5-table-latex,
+ fcitx5-table-malayalam-phonetic,
+ fcitx5-table-rustrad,
+ fcitx5-table-tamil-remington,
+ fcitx5-table-thai,
+ fcitx5-table-translit-ua,
+ fcitx5-table-translit,
+ fcitx5-table-viqr,
+ fcitx5-table-yawerty,
+Description: Additional table based input method for Fcitx 5
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ and Qt IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This metapackage recommends all additional table based input methods provided
+ by fcitx5-table-other project.
+
+Package: fcitx5-table-amharic
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ fcitx5-table,
+ ${misc:Depends},
+Conflicts:
+ fcitx-table-amharic,
+Description: Flexible Input Method Framework v5 - Amharic table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ and Qt IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides Amharic table used by the Fcitx5 table engine.
+
+Package: fcitx5-table-arabic
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ fcitx5-table,
+ ${misc:Depends},
+Conflicts:
+ fcitx-table-arabic,
+Description: Flexible Input Method Framework v5 - Arabic table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ and Qt IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides Arabic table used by the Fcitx5 table engine.
+
+Package: fcitx5-table-cns11643
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ fcitx5-table,
+ ${misc:Depends},
+Conflicts:
+ fcitx-table-cns11643,
+Description: Flexible Input Method Framework v5 - Cns11643 table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ and Qt IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides Cns11643 table used by the Fcitx5 table engine.
+
+Package: fcitx5-table-compose
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ fcitx5-table,
+ ${misc:Depends},
+Conflicts:
+ fcitx-table-compose,
+Description: Flexible Input Method Framework v5 - Compose table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ and Qt IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides Compose table used by the Fcitx5 table engine.
+
+Package: fcitx5-table-emoji
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ fcitx5-table,
+ ${misc:Depends},
+Conflicts:
+ fcitx-table-emoji,
+Description: Flexible Input Method Framework v5 - Emoji table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ and Qt IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides Emoji table used by the Fcitx5 table engine.
+
+Package: fcitx5-table-ipa-x-sampa
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ fcitx5-table,
+ ${misc:Depends},
+Conflicts:
+ fcitx-table-ipa-x-sampa,
+Description: Flexible Input Method Framework v5 - IPA-X-SAMPA table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ and Qt IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides IPA-X-SAMPA table used by the Fcitx5 table engine.
+
+Package: fcitx5-table-latex
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ fcitx5-table,
+ ${misc:Depends},
+Conflicts:
+ fcitx-table-latex,
+Description: Flexible Input Method Framework v5 - LaTeX table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ and Qt IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides LaTeX table used by the Fcitx5 table engine.
+
+Package: fcitx5-table-malayalam-phonetic
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ fcitx5-table,
+ ${misc:Depends},
+Conflicts:
+ fcitx-table-malayalam-phonetic,
+Description: Flexible Input Method Framework v5 - Malayalam phonetic table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ and Qt IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides Malayalam phonetic table used by the Fcitx5 table engine.
+
+Package: fcitx5-table-rustrad
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ fcitx5-table,
+ ${misc:Depends},
+Conflicts:
+ fcitx-table-rustrad,
+Description: Flexible Input Method Framework v5 - Rustrad table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ and Qt IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides Rustrad table used by the Fcitx5 table engine.
+
+Package: fcitx5-table-tamil-remington
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ fcitx5-table,
+ ${misc:Depends},
+Conflicts:
+ fcitx-table-tamil-remington,
+Description: Flexible Input Method Framework v5 - Tamil Remington table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ and Qt IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides Tamil Remington table used by the Fcitx5 table engine.
+
+Package: fcitx5-table-thai
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ fcitx5-table,
+ ${misc:Depends},
+Conflicts:
+ fcitx-table-thai,
+Description: Flexible Input Method Framework v5 - Thai table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ and Qt IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides Thai table used by the Fcitx5 table engine.
+
+Package: fcitx5-table-translit
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ fcitx5-table,
+ ${misc:Depends},
+Conflicts:
+ fcitx-table-translit,
+Description: Flexible Input Method Framework v5 - Translit table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ and Qt IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides Translit table used by the Fcitx5 table engine.
+
+Package: fcitx5-table-translit-ua
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ fcitx5-table,
+ ${misc:Depends},
+Conflicts:
+ fcitx-table-translit-ua,
+Description: Flexible Input Method Framework v5 - Ukrainian Translit table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ and Qt IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides Ukrainian Translit table used by the Fcitx table
+ engine.
+
+Package: fcitx5-table-viqr
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ fcitx5-table,
+ ${misc:Depends},
+Conflicts:
+ fcitx-table-viqr,
+Description: Flexible Input Method Framework v5 - Viqr table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ and Qt IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides Viqr table used by the Fcitx5 table engine.
+
+Package: fcitx5-table-yawerty
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ fcitx5-table,
+ ${misc:Depends},
+Conflicts:
+ fcitx-table-yawerty,
+Description: Flexible Input Method Framework v5 - Yawerty table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ and Qt IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides Yawerty table used by the Fcitx5 table engine.

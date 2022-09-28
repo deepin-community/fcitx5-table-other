@@ -1,0 +1,22 @@
+[InputMethod]
+Name=Emoji (Table)
+Icon=fcitx-emoji
+LangCode=zh_CN
+Addon=table
+Configurable=True
+
+[Table]
+File=table/emoji.main.dict
+OrderPolicy=Freq
+AutoSelect=False
+ExactMatch=False
+UseAlternativePageKey=True
+FirstCandidateAsPreedit=True
+CommitInvalidSegment=True
+Hint=True
+
+[Table/PrevPage]
+0=Page_Up
+
+[Table/NextPage]
+0=Page_Down

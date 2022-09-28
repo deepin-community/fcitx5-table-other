@@ -1,0 +1,24 @@
+[InputMethod]
+Name=Swanalekha - Malayalam (Table)
+Icon=fcitx-malayalam-phonetic
+LangCode=ml
+Addon=table
+Configurable=True
+
+[Table]
+File=table/malayalam-phonetic.main.dict
+OrderPolicy=No
+AutoSelect=True
+AutoSelectLength=-1
+NoMatchAutoSelectLength=1
+Learning=False
+ExactMatch=False
+UseAlternativePageKey=True
+FirstCandidateAsPreedit=True
+CommitInvalidSegment=True
+
+[Table/PrevPage]
+0=Page_Up
+
+[Table/NextPage]
+0=Page_Down
